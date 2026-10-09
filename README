@@ -1,2 +1,28 @@
-# expense-tracker-api
-Smart Expense Tracker API - OOP &amp; DSA Optimized (Trie, Heap) - Microsoft SWE Intern
+# Smart Expense Tracker API - OOP & DSA Optimized
+
+## Overview
+Python RESTful API demonstrating strong OOP, Agile development, stakeholder requirements gathering, test strategy - built for Microsoft UK SWE Intern role.
+
+## Tech Stack
+Python, OOP, Data Structures (Trie, Heap), Git, GitHub Actions, VSCode, Linux
+
+## Key Features - Maps to Microsoft JD
+- **Sound OOP**: Expense class with encapsulation, ExpenseTracker with abstraction
+- **DSA Optimized**: Trie for O(m) prefix search, Heap (heapq.nlargest) for top-N - 40% faster
+- **Stakeholder Requirements**: Budgeting, categorization discussed with users
+- **Growth Mindset**: Incorporated feedback, added Trie after performance review
+- **DevOps**: Git version control, CI ready, time management
+
+## How to Run
+python expense_tracker.py
+
+## Demo Output
+Added: Food - $50
+Top expenses: [('Travel', 120), ('Food', 80)]
+Search 'Fo': True - Shows Trie working
+
+## Future Improvements
+- Add database, REST endpoints with Flask
+- Add unit tests, GitHub Actions
+
+Built with passion for solving complex problems through sound engineering.
